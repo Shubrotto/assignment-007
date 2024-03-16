@@ -8,7 +8,7 @@
 }
 
 .show_more_btn {
-  padding: 5px;
+  padding: 10px;
   border: none;
   cursor: pointer;
   font-size: 14px;
@@ -23,6 +23,8 @@
   flex-direction: column;
   align-items: center;
   padding: 20px 0px;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .wrapper_quotes {
@@ -39,8 +41,6 @@
   align-items: center;
   flex-direction: column;
   color: #161515;
-  width: 70%;
-  margin: 0 auto;
   justify-content: center;
 }
 
@@ -51,10 +51,7 @@
   border-right: 1px solid white;
   padding: 0 5px;
   border-top: 2px solid teal;
-}
-
-.quotes_item h5 span {
-  font-weight: 600;
+  text-align: center;
 }
 
 .quotes_item p {
