@@ -6,6 +6,6 @@ export default defineConfig({
   base: "/assignment-007/",
   plugins: [react()],
   build: {
-    OutDir: " build",
+    outDir: " build",
   },
 });
